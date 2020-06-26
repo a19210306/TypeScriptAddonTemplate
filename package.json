@@ -1,5 +1,5 @@
 {
-    "name": "",
+    "name": "nav",
     "scripts": {
         "postinstall": "node scripts/install.js",
         "launch": "node scripts/launch.js",

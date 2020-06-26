@@ -24,6 +24,7 @@ export class GameMode {
         this.configure();
         ListenToGameEvent("game_rules_state_change", () => this.OnStateChange(), undefined);
         ListenToGameEvent("npc_spawned", event => this.OnNpcSpawned(event), undefined);
+        ListenToGameEvent
     }
 
     private configure(): void {
@@ -59,7 +60,6 @@ export class GameMode {
     // Called on script_reload
     public Reload() {
         print("Script reloaded!");
-
         // Do some stuff here
     }
 

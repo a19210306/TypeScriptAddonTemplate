@@ -14,7 +14,7 @@ module.exports.getAddonName = () => {
 
 module.exports.getDotaPath = async () => {
     try {
-        return await "D:/steam/steamapps/common/dota 2 beta";
+        return "D:/steam/steamapps/common/dota 2 beta";
     } catch (error) {
         if (!(error instanceof SteamNotFoundError)) {
             throw error;
