@@ -5,6 +5,8 @@ node_modules
 !/game/scripts/vscripts/lib/timers.lua
 /game/model
 /game/materials
+/content/panorama/model
+/content/panorama/materials
 
 # Dota 2 stuff
 *.bin
